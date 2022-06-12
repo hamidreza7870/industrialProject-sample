@@ -1,0 +1,59 @@
+.row:hover .projectInfo{
+    right: 2.5%;
+    opacity: 1;
+}
+.row:hover .descProject{
+    top: 0;
+    opacity: 1;
+}
+.row:hover .titleProject{
+    top: 0;
+    opacity: 1;
+}
+.row{
+    position: relative;
+}
+
+.titleProject{
+    font-size: 1.46667rem;
+    color: #fff;
+    margin: 0 0 0.2em;
+    position: relative;
+    top: -10px;
+    opacity: 0;
+    -webkit-transition: all 0.3s 0.5s;
+    transition: all 0.3s 0.5s;
+}
+.projectInfo{
+    background-color: rgba(5, 24, 41, 0.9);
+    width: 95%;
+    height: 92%;
+    border: 2px solid #fdc900;
+    position: absolute;
+    right: -10%;
+    top: 3%;
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.descProject{
+    color: #fdc900;
+    position: relative;
+    top: 10px;
+    opacity: 0;
+    -webkit-transition: all 0.3s 0.5s;
+    transition: all 0.3s 0.5s;
+}
+.innerInfo{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 10;
+}
+.linkProject{
+    color: #fff;
+    text-decoration: none;
+}
